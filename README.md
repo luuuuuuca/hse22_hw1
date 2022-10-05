@@ -22,6 +22,9 @@ ls sub* matep* | xargs -tI{} fastqc -o fastqc {}
 mkdir multiqc
 multiqc -o multiqc fastqc
 ```
+#### (опечаталась в самом начале) 
+![ty](https://github.com/luuuuuuca/hse22_hw1/blob/main/Снимок%20экрана%202022-10-06%20в%2000.27.12.png)
+![rt](https://github.com/luuuuuuca/hse22_hw1/blob/main/Снимок%20экрана%202022-10-06%20в%2000.31.50.png)
 ### Обрезание чтений 
 ```
 platanus_trim sub*
@@ -44,9 +47,6 @@ ls sub* matep*| xargs -tI{} fastqc -o fastqc_trimmed {}
 mkdir multiqc_trimmed
 multiqc -o multiqc_trimmed fastqc_trimmed
 ```
-#### (опечаталась в самом начале) 
-![ty](https://github.com/luuuuuuca/hse22_hw1/blob/main/Снимок%20экрана%202022-10-06%20в%2000.27.12.png)
-![rt](https://github.com/luuuuuuca/hse22_hw1/blob/main/Снимок%20экрана%202022-10-06%20в%2000.31.50.png)
 ### Сбор континг из подрезанных чтений через platanus assemble
 ```
 time platanus assemble -o Poil -f sub1.fastq.trimmed sub2.fastq.trimmed 2> assemble.log
