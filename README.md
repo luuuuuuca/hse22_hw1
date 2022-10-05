@@ -39,7 +39,7 @@ rm matep2.fastq
 mkdir fastqc_trimmed
 ls sub* matep*| xargs -tI{} fastqc -o fastqc_trimmed {}
 ```
-!(/Users/elnaradav/Desktop/Снимок экрана 2022-10-06 в 00.27.12.png)
+!()
 ### Создание отчета через MultiQC
 ```
 mkdir multiqc_trimmed
