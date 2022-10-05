@@ -47,6 +47,7 @@ ls sub* matep*| xargs -tI{} fastqc -o fastqc_trimmed {}
 mkdir multiqc_trimmed
 multiqc -o multiqc_trimmed fastqc_trimmed
 ![ui](https://github.com/luuuuuuca/hse22_hw1/blob/main/Снимок%20экрана%202022-10-06%20в%2002.15.12.png)
+![ui](https://github.com/luuuuuuca/hse22_hw1/blob/main/Снимок%20экрана%202022-10-06%20в%2002.15.38.png)
 ```
 ### Сбор континг из подрезанных чтений через platanus assemble
 ```
