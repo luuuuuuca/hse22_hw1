@@ -68,7 +68,7 @@ rm matep2.fastq.int_trimmed
 rm sub1.fastq.trimmed
 rm sub2.fastq.trimmed
 ```
-
+#### Ссылка на колаб: https://colab.research.google.com/drive/1sdzJJaiybFI1XJiZoi7gp2K9xDcgjjLi#scrollTo=eKrKvy4_4_kf
 
 
 
